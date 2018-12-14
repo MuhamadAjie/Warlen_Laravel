@@ -60,3 +60,5 @@ Ini tutor lengkap ya.. nuhun buat yg udh baca.. kalo ada kebingungan jangan ragu
 Selamat mengerjakan genk👍
 
 Regards. AJIE_PUBG
+
+[![Build Status](https://travis-ci.org/MuhamadAjie/Warlen_Laravel.svg?branch=master)](https://travis-ci.org/MuhamadAjie/Warlen_Laravel)
