@@ -1,4 +1,9 @@
+# Laravel TDD Project
+
+[![Build Status](https://travis-ci.org/MuhamadAjie/Warlen_Laravel.svg?branch=master)](https://travis-ci.org/MuhamadAjie/Warlen_Laravel)
+
 # Warlen_Laravel
+
 Tutorial cara penggunaan github untuk project tim
 
 //Pastikan sudah install aplikasi gitbash https://git-scm.com/downloads
