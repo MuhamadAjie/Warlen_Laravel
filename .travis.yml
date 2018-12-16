@@ -1,13 +1,19 @@
 language: php
-
 php:
-  - 7.1.3
+  - 7.2
 
 before_script:
-  - travis_retry composer self-update
-  - travis_retry composer install --prefer-source --no-interaction --dev
-  - cp .env.example .env
-  - php artisan key:generate
+  - composer self-update
+  - composer install --prefer-source --no-interaction --dev
 
-script:
-  - vendor/bin/phpunit
+script: phpunit
+
+matrix:
+  allow_failures:
+    - php: 7.2
+    - php: hhvm
+  fast_finish: true
+
+notifications:
+    on_success: never
+    on_failure: always
